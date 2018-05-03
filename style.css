@@ -16,7 +16,6 @@ body {
 -----------------*/
 
 nav {
-
 	font-weight: 100;
 	padding-top: 80px;
 	display: block;
@@ -49,6 +48,11 @@ nav {
 
 /* "portfolio on hover" */
 .dropdown:hover > .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+.dropdown:active > .dropdown-content {
     display: block;
     background-color: white;
 }
@@ -98,6 +102,17 @@ a {
 	width: 33.333333%;
 	min-width: 360px;
 	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+#intro2 {
+	display: block;
+	font-weight: 100;
+	font-size: 30px;
+	width: 33.333333%;
+	min-width: 360px;
 	margin: 0 auto;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -173,7 +188,6 @@ _________*/
     width: 60%;
     min-width: 340px;
     margin-top: 80px;
-    margin-bottom: 40px
 }
 
 /*
@@ -257,6 +271,15 @@ _________*/
 	font-weight: 200;
 	font-size: 14px;
 	padding: 0px 0px 0px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.text-home {
+	font-weight: 200;
+	font-size: 14px;
+	padding: 0px 0px 0px 0px;
+	padding-bottom: 20px;
 }
 
 .text2 {
