@@ -53,10 +53,10 @@ nav {
     background-color: white;
 }
 
-.dropdown:active > .dropdown-content {
+/*.dropdown:active > .dropdown-content {
     display: block;
     background-color: white;
-}
+}*/
 
 .d-item-s {
 	padding-bottom: 20px;
