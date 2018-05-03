@@ -44,18 +44,19 @@ nav {
 .dropbtn {
     font-size: 16px;
     border: none;
+    display: block;
 }
 
 /* "portfolio on hover" */
-.dropdown:hover, .dropdown:active > .dropdown-content {
+.dropdown:hover > .dropdown-content {
     display: block;
     background-color: white;
 }
 
-/*.dropdown:active > .dropdown-content {
+.dropdown:active > .dropdown-content {
     display: block;
     background-color: white;
-}*/
+}
 
 .d-item-s {
 	padding-bottom: 20px;
@@ -332,11 +333,11 @@ _________*/
 
 
 .item-title {
-	display: block;
 	margin: 0 auto;
 	font-weight: 100;
 	text-align: center;
 	padding-bottom: 20px;
+	display: block;
 }
 
 .mz-pic {
