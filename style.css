@@ -47,15 +47,15 @@ nav {
 }
 
 /* "portfolio on hover" */
-.dropdown:hover > .dropdown-content {
+.dropdown:hover, .dropdown:active > .dropdown-content {
     display: block;
     background-color: white;
 }
 
-.dropdown:active > .dropdown-content {
+/*.dropdown:active > .dropdown-content {
     display: block;
     background-color: white;
-}
+}*/
 
 .d-item-s {
 	padding-bottom: 20px;
@@ -317,10 +317,22 @@ _________*/
 	margin: 0 auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
-
 }
 
+/*@media only screen and (min-width: 600px) {
+    .l-p {
+        float: left;
+        margin-right: 50%;
+    }
+
+    .r-p {
+        float: right;
+        margin-left: 50%;
+    }*/
+
+
 .item-title {
+	display: block;
 	margin: 0 auto;
 	font-weight: 100;
 	text-align: center;
