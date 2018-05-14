@@ -438,6 +438,24 @@ _________*/
 	background-image: url('pics/learn-more-01.png');
 }
 
+.engage-pic {
+	padding-top: 100px;
+	background: url('pics/engage/en3-1.png');
+	background-repeat: none;
+	background-position: center;
+	background-size: 361px;
+	width: 361px;
+	height: 361px;
+	text-indent:-9999px;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid black;
+}
+
+.engage-pic:hover {
+	background-image: url('pics/learn-more-01.png');
+}
+
 .video {
 	width: 640px;
 	margin: 0px auto;
@@ -483,6 +501,11 @@ _________*/
 
 .drop-down:hover > .drop-nav {
 	display: block;
+}
+
+.poster {
+	margin: 0 auto;
+	border: 2px solid black;
 }
 
 
